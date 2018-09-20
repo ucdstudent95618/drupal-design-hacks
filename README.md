@@ -15,27 +15,37 @@ In order to create a button you must do the following
 
 1. Create a link in the editor:
 
+   ```html
+   <a href="http://www.google.com">button</a>
+   ```
+
    ![Button Editor](/img/btn-2.png)
 
-HTML Code:
+2. Add CSS to **Style**.
 
-```html
-<a href="http://www.google.com">button</a>
-```
+   ```html
+   <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; line-height: 45px; color: white; border-radius: 10px; font-size: 18px; text-decoration: none;" type="button">button</a>
+   ```
 
-2. Add CSS
+   ```css
+   display: block;
+   background-color: blue;
+   width: 175px;
+   height: 45px;
+   line-height: 45px;
+   color: white;
+   border-radius: 10px;
+   font-size: 18px;
+   text-decoration: none;
+   ```
 
-```css
-display: block;
-background-color: blue;
-width: 175px;
-height: 45px;
-line-height: 45px;
-color: white;
-border-radius: 10px;
-font-size: 18px;
-text-decoration: none;
-```
+3. Add "button" to **Advisory Content Type**.
+
+![Added CSS](/img/btn-3.png)
+
+Result: 
+
+![button result](/img/btn-4.png)
 
 
 
