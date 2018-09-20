@@ -47,6 +47,8 @@ Buttons can be created by using a link.
 
 ### ***Inline Buttons***
 
+![Inline Button w/o padding](/img/btn/inline-btn-5.png)
+
 **Method #1**: With a Table
 
 1. Create a **table** with the # of columns needed and the width to 100%.
@@ -63,10 +65,43 @@ Buttons can be created by using a link.
    </table>
    ```
 
+![Table for Inline Buttons](/img/btn/inline-btn-2.png)
+
+2. Change **cellpadding** and **cellspacing** to zero.
+
+   ![Cell padding/spacing set to zero](/img/btn/inline-btn-3.png)
+
+   ```html
+   <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+   	<tbody>
+   		<tr>
+   			<td></td>
+   			<td></td>
+   			<td></td>
+   		</tr>
+   	</tbody>
+   </table>
+   ```
 
 
 
-**Method #2**: Inline buttons
+3. Add **buttons** to **table columns** and change the width to the sum of button widths ``style="width:525px;"`` .
+
+   ``` html
+   <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:525px">
+   	<tbody>
+   		<tr>
+   			<td><a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center; line-height: 45px; color: white; font-size: 18px; text-decoration: none;" type="button">button</a></td>
+   			<td><a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center; line-height: 45px; color: white; font-size: 18px; text-decoration: none;" type="button">button</a></td>
+   			<td><a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center; line-height: 45px; color: white; font-size: 18px; text-decoration: none;" type="button">button</a></td>
+   		</tr>
+   	</tbody>
+   </table>
+   ```
+
+
+
+**Method #2**: With CSS
 
 ![Inline Buttons](/img/btn/inline-btn.png)
 
@@ -78,13 +113,19 @@ Buttons can be created by using a link.
    <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center;line-height: 45px; color: white; font-size: 18px; text-decoration: none;" type="button">button</a>
    ```
 
-2. Add ``  display: inline-block; `` to the **css**.
+2. Add ``  display: inline-block; `` to their **style**.
 
    ```html
    <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center; line-height: 45px; color: white; display: inline-block; font-size: 18px; text-decoration: none;" type="button">button</a> 
    <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center;line-height: 45px; color: white; display: inline-block; font-size: 18px; text-decoration: none;" type="button">button</a> 
    <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center;line-height: 45px; color: white; display: inline-block; font-size: 18px; text-decoration: none;" type="button">button</a>
    ```
+
+
+
+### Inline Button With Text 
+
+
 
 ## Divs 
 
