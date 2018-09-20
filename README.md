@@ -11,17 +11,17 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 Buttons can be created by using a link.
 
-### ***Single-Button***
+### **Single-Button**
 
 ![Single-button](/img/btn/btn-4.png)
 
 1. Create a link in the editor:
 
+   ![Button Editor](/img/btn/btn-2.png)
+
    ```html
    <a href="http://www.google.com">button</a>
    ```
-
-   ![Button Editor](/img/btn/btn-2.png)
 
 2. Add CSS to **Style**.
 
@@ -45,13 +45,15 @@ Buttons can be created by using a link.
 
    ![Added CSS](/img/btn/btn-3.png)
 
-### ***Inline Buttons***
+### **Inline Buttons**
 
 **Method #1**: With a Table
 
 ![Inline Button w/o padding](/img/btn/inline-btn-5.png)
 
-1. Create a **table** with the # of columns needed and the width to 100%.
+1. Create a **table** with the # of columns needed and the **width** to 100%.
+
+   ![Table for Inline Buttons](/img/btn/inline-btn-2.png)
 
    ```html
    <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
@@ -64,8 +66,6 @@ Buttons can be created by using a link.
    	</tbody>
    </table>
    ```
-
-![Table for Inline Buttons](/img/btn/inline-btn-2.png)
 
 2. Change **cellpadding** and **cellspacing** to zero.
 
@@ -125,9 +125,39 @@ Buttons can be created by using a link.
 
 ### Inline Button With Text 
 
+![Inline Button With Text](/img/btn/inline-btn-12.png)
+
+1. Create a 2x1 **table** with an appropriate width (eg. 200px) and the **Border size** to 0.
+
+   ![Inline Button Text](/img/btn/inline-btn-6.png)
+
+2. Place the icon on the left **column** and the text on the right **column**.
+
+   ![Inline button with text](/img/btn/inline-btn-7.png)
+
+3. Adjust the left column size to **25 pixels**. 
+
+   ![Adjusting left column](/img/btn/inline-btn-10.png)
+
+4. Adjust **Cell Spacing** to 10 pixels.
+
+   ![Cell Spacing](/img/btn/inline-btn-11.png)
+
+   ```html
+   <table align="center" border="0" cellpadding="1" cellspacing="10" style="width:200px">
+   	<tbody>
+   		<tr>
+   			<td style="width:25px"><img alt="" src="http://www.aqua.gov/home/scvwd/main/drupal-w.png" style="height:25px; width:25px" /></td>
+   			<td>Lorem Ipsum</td>
+   		</tr>
+   	</tbody>
+   </table
+   ```
 
 
-## Divs 
+## Div 
+
+
 
 <table border="1" cellpadding="1" cellspacing="1" style="background-color:white; margin:0; padding:10px; width:100%">
 	<tbody>
@@ -141,6 +171,8 @@ Buttons can be created by using a link.
 
 1. Create at **table** that is 1x1.
 
+   ![Adding CSS to Div](/img/div/div-1.png)
+
    ```html
    <table border="1" cellpadding="1" cellspacing="1">
    	<tbody>
@@ -152,15 +184,12 @@ Buttons can be created by using a link.
    </table>
    ```
 
-   ![Adding CSS to Div](/img/div/div-1.png)
-
 2. Add CSS to **Style**.
 
+   ![Adding CSS to Div](/img/div/div-3.png)
+
    ```css
-   background-color: white;
-   margin: 0;
-   padding: 10px;
-   width: 100%;
+   background-color: white; margin: 0; padding: 10px; width: 100%;
    ```
 
    ```html
@@ -175,7 +204,6 @@ Buttons can be created by using a link.
    </table>
    ```
 
-   ![Adding CSS to Div](/img/div/div-3.png)
 
 ## Tables 
 
