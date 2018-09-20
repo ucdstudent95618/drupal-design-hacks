@@ -11,6 +11,8 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 Buttons can be created by using a link.
 
+### ***Single-Button***
+
  ![button result](/img/btn/btn-4.png)
 
 1. Create a link in the editor:
@@ -43,7 +45,8 @@ Buttons can be created by using a link.
 
    ![Added CSS](/img/btn/btn-3.png)
 
-  
+### ***Inline Buttons***
+
 
 ## Divs 
 
