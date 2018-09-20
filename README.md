@@ -1,7 +1,6 @@
 # Drupal Design Hacks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ucdstudent95618/drupal-design-hacks)
 A collection of Drupal design hacks that avoid the use of external CSS files.
 
-Drupal version: 
 
 *Shortlink: ['https://git.io/fAQHX'](https://git.io/fAQHX)*
 
