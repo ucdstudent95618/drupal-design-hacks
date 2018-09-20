@@ -1,4 +1,4 @@
-# Drupal Design Hacks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Drupal Design Hacks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ucdstudent95618/drupal-design-hacks)
 A collection of Drupal design hacks that avoid the use of external CSS files.
 
 Drupal version: 
@@ -9,15 +9,13 @@ Drupal version:
 
 ## Table of Contents
 
-
-
 ## Buttons
 
 In order to create a button you must do the following
 
 1. Create a link in the editor:
 
-   ![Link](\img\btn\btn-2.png)
+   ![Button Editor](\img\btn-2.png)
 
 HTML Code:
 
