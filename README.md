@@ -15,11 +15,7 @@ In order to create a button you must do the following
 
 1. Create a link in the editor:
 
-<<<<<<< HEAD
-   ![Button Editor](\img\btn-2.png)
-=======
-   ![Creating a Link](\img\btn\btn-2.png)
->>>>>>> fc88bbcf41151dea857d7723614a642464b016e0
+   ![Button Editor](/img/btn-2.png)
 
 HTML Code:
 
