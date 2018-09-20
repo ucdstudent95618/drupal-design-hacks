@@ -47,9 +47,9 @@ Buttons can be created by using a link.
 
 ### ***Inline Buttons***
 
-![Inline Button w/o padding](/img/btn/inline-btn-5.png)
-
 **Method #1**: With a Table
+
+![Inline Button w/o padding](/img/btn/inline-btn-5.png)
 
 1. Create a **table** with the # of columns needed and the width to 100%.
 
