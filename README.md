@@ -13,9 +13,7 @@ Buttons can be created by using a link.
 
 ### ***Single-Button***
 
- <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; line-height: 45px; color: white; border-radius: 10px; font-size: 18px; text-decoration: none;" type="button">button</a>
-
-
+![Single-button](/img/btn/btn-4.png)
 
 1. Create a link in the editor:
 
@@ -51,13 +49,26 @@ Buttons can be created by using a link.
 
 **Method #1**: With a Table
 
-1. Create a **table** with the # of columns needed.
+1. Create a **table** with the # of columns needed and the width to 100%.
+
+   ```html
+   <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+   	<tbody>
+   		<tr>
+   			<td>&nbsp;</td>
+   			<td>&nbsp;</td>
+   			<td>&nbsp;</td>
+   		</tr>
+   	</tbody>
+   </table>
+   ```
+
 
 
 
 **Method #2**: Inline buttons
 
-<a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center; line-height: 45px; color: white; display: inline-block; font-size: 18px; text-decoration: none;" type="button">button</a> <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center;line-height: 45px; color: white; display: inline-block; font-size: 18px; text-decoration: none;" type="button">button</a> <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center;line-height: 45px; color: white; display: inline-block; font-size: 18px; text-decoration: none;" type="button">button</a>
+![Inline Buttons](/img/btn/inline-btn.png)
 
 1. Create a set of **buttons** side by side.
 
