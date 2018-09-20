@@ -19,7 +19,7 @@ In order to create a button you must do the following
    <a href="http://www.google.com">button</a>
    ```
 
-   ![Button Editor](/img/btn-2.png)
+   ![Button Editor](/img/btn/btn-2.png)
 
 2. Add CSS to **Style**.
 
@@ -41,11 +41,11 @@ In order to create a button you must do the following
 
 3. Add "button" to **Advisory Content Type**.
 
-![Added CSS](/img/btn-3.png)
+![Added CSS](/img/btn/btn-3.png)
 
 Result: 
 
-![button result](/img/btn-4.png)
+![button result](/img/btn/btn-4.png)
 
 
 
