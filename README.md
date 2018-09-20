@@ -11,7 +11,7 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 Buttons can be created by using a link.
 
-### **Single-Button**
+### **Single Button**
 
 ![Single-button](/img/btn/btn-4.png)
 
@@ -206,4 +206,43 @@ Buttons can be created by using a link.
 
 
 ## Tables 
+
+### Creating a Table
+
+1. Create a **Table** of any given size (eg. 3 by 4)  with a **width** of 100% and **Headers** "First Row".
+
+   ![Table settings](/img/table/table-1.png)
+
+```html
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width:100%">
+	<thead>
+		<tr>
+			<th scope="col">&nbsp;</th>
+			<th scope="col">&nbsp;</th>
+			<th scope="col">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+```
+
+
+
+### **Adding Background Color**
 
