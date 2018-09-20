@@ -10,7 +10,9 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 ## Buttons
 
-In order to create a button you must do the following
+Buttons can be created by using a link within the editor.
+
+ ![button result](/img/btn/btn-4.png)
 
 1. Create a link in the editor:
 
@@ -40,11 +42,9 @@ In order to create a button you must do the following
 
 3. Add "button" to **Advisory Content Type**.
 
-![Added CSS](/img/btn/btn-3.png)
+   ![Added CSS](/img/btn/btn-3.png)
 
-Result: 
-
-![button result](/img/btn/btn-4.png)
+  
 
 
 
