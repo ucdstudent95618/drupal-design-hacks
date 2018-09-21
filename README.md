@@ -5,6 +5,8 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 *Read this in other languages: [Spanish](README.es.md)*
 
+![Drupal Logo](/img/drupal_logo.png = 100x)
+
 ## Table of Contents
 
 - [Buttons](https://github.com/ucdstudent95618/drupal-design-hacks#buttons)
