@@ -31,7 +31,7 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 - [Images](#images)
   - [Adding an Image](#adding-an-Image)
   - [Resizing an Image](#resizing-an-image)
-  - [Ciruclar Image](#circular-image)
+  - [Circular Image](#circular-image)
   - [Rounded Image Corners](#rounded-image-corners)
 
 
