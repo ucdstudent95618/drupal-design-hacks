@@ -46,15 +46,28 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
    ![Button Editor](/img/btn/btn-2.png)
 
+
+
+   HTML
+
    ```html
    <a href="http://www.google.com">button</a>
    ```
 
 2. Add CSS to **Style**.
 
+
+
+   HTML
+
    ```html
    <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; line-height: 45px; color: white; border-radius: 10px; font-size: 18px; text-decoration: none;" type="button">button</a>
+   
    ```
+
+
+
+   CSS
 
    ```css
    display: block;
@@ -84,6 +97,10 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
    ![Table for Inline Buttons](/img/btn/inline-btn-2.png)
 
+
+
+   HTML
+
    ```html
    <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
    	<tbody>
@@ -100,6 +117,10 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
    ![Cell padding/spacing set to zero](/img/btn/inline-btn-3.png)
 
+
+
+   HTML
+
    ```html
    <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
    	<tbody>
@@ -115,6 +136,10 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 
 3. Add **buttons** to **table columns** and change the width to the sum of button widths ``style="width:525px;"`` .
+
+
+
+   HTML
 
    ``` html
    <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:525px">
@@ -136,6 +161,10 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 1. Create a set of **buttons** side by side.
 
+
+
+   HTML
+
    ``` html
    <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center; line-height: 45px; color: white; font-size: 18px; text-decoration: none;" type="button">button</a> 
    <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center;line-height: 45px; color: white; font-size: 18px; text-decoration: none;" type="button">button</a> 
@@ -143,6 +172,10 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
    ```
 
 2. Add ``  display: inline-block; `` to their **style**.
+
+
+
+   HTML
 
    ```html
    <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; text-align: center; line-height: 45px; color: white; display: inline-block; font-size: 18px; text-decoration: none;" type="button">button</a> 
@@ -171,6 +204,10 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 4. Adjust **Cell Spacing** to 10 pixels.
 
    ![Cell Spacing](/img/btn/inline-btn-11.png)
+
+
+
+   HTML
 
    ```html
    <table align="center" border="0" cellpadding="1" cellspacing="10" style="width:200px">
@@ -207,6 +244,10 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
    ![Adding CSS to Div](/img/div/div-1.png)
 
+
+
+   HTML
+
    ```html
    <table border="1" cellpadding="1" cellspacing="1">
    	<tbody>
@@ -229,9 +270,15 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
    ![Adding CSS to Div](/img/div/div-3.png)
 
+   CSS
+
    ```css
    background-color: white; margin: 0; padding: 10px; width: 100%;
    ```
+
+
+
+   HTML
 
    ```html
    <table border="1" cellpadding="1" cellspacing="1" style="background-color:white; margin:0; padding:10px; width:100%">
@@ -254,6 +301,10 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 1. Create a **Table** of any given size (eg. 3 by 4)  with a **width** of 100% and **Headers** "First Row".
 
    ![Table settings](/img/table/table-1.png)
+
+
+
+HTML
 
 ```html
 <table align="center" border="1" cellpadding="1" cellspacing="1" style="width:100%">
@@ -295,6 +346,10 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 2. Go to **Cell Properties** and add the color to **Background Color**.
 
    ![Adding Background Color](/img/table/table-2.png)
+
+
+
+HTML
 
 ```html
 <table align="center" border="1" cellpadding="1" cellspacing="1" style="width:100%">
@@ -352,6 +407,10 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 2. Go to **Table** **Properties** and add `` Background-color: blue;`` to **Style**.
 
    ![Adding Blue to Table](/img/table/table-5.png)
+
+
+
+   HTML
 
    ```html
    <table align="center" border="1" cellpadding="1" cellspacing="1" style="background-color:blue; width:100%">
@@ -416,9 +475,15 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 1. Create an **image tag** and insert into the **editor**.
 
+
+
+   HTML
+
    ```html
    <img src="/img/example.png" width="100px" height="100px" alt="image" />
    ```
+
+
 
 ### Resizing an image
 
@@ -436,6 +501,10 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 2. Update the tags **width** and **height** property accordingly.
 
+
+
+   HTML
+
    ```html
    <img src="/img/example.png" width="100px" height="100px" alt="image" />
    ```
@@ -447,6 +516,7 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 ![Circular Image](/img/img-t/img-5.png)
 
 1. Add `` border-radius:50% `` to image **Style**.
+
 
 HTML
 
@@ -463,6 +533,7 @@ HTML
 ![Circular Image](/img/img-t/img-4.png)
 
 1. Add `` border-radius:15% `` to image **Style**.
+
 
 HTML
 
