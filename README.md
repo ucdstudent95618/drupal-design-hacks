@@ -5,9 +5,11 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 *Read this in other languages: [Spanish](README.es.md)*
 
+*Drupal Repository*: https://git.io/fA5gb
+
 ## Compatibility
 
-- Drupal *Version 7*
+- Drupal *Version 7* and others
 
 ## Table of Contents
 
