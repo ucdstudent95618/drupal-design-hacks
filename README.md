@@ -7,9 +7,13 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 *Drupal Repository*: https://git.io/fA5gb
 
+
+
 ## Compatibility
 
 - Drupal *Version 7* and others
+
+
 
 ## Table of Contents
 
@@ -17,15 +21,15 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
   - [Single Button](#single-button)
   - [Inline Buttons](#inline-buttons)
   - [Inline Button With Text](#inline-button-with-text)
-- [Div](#div)
+- [Divs](#div)
 - [Tables](#tables)
   - [Creating a Table](#creating-a-table)
   - [Adding Color to Single Cell](#adding-color-to-single-cell)
   - [Adding Color to Entire Table](#adding-color-to-entire-table)
 
-## Buttons
 
-Buttons can be created by using a link.
+
+## Buttons
 
 ### **Single Button**
 
@@ -60,6 +64,8 @@ Buttons can be created by using a link.
 3. Add "button" to **Advisory Content Type**.
 
    ![Added CSS](/img/btn/btn-3.png)
+
+
 
 ### **Inline Buttons**
 
@@ -171,7 +177,8 @@ Buttons can be created by using a link.
    ```
 
 
-## Div 
+
+## Divs 
 
 
 
@@ -219,6 +226,7 @@ Buttons can be created by using a link.
    	</tbody>
    </table>
    ```
+
 
 
 ## Tables 
@@ -372,4 +380,75 @@ Buttons can be created by using a link.
    </table>
    ```
 
+
+
+## Images
+
+### Creating an Image
+
+**Method #1**
+
+1. Click on the **image** icon.
+
+2. Click on **Browse Server** and select image.
+
+   ![Selecting Image](/img/img-t/img-2.png)
+
+**Method #2 **
+
+1. Create an **image tag** and insert into the **editor**.
+
+   ```html
+   <img src="/img/example.png" width="100px" height="100px" alt="image" />
+   ```
+
+### Resizing an image
+
+**Method #1**
+
+1. Double click on the image and increase width and height accordingly.
+
+2. And save by clicking "OK."
+
+   ![Updating Image Size](/img/img-t/img-2.png)
+
+**Method #2**
+
+1. Click on **Source**.
+
+2. Update the tags **width** and **height** property accordingly.
+
+   ```html
+   <img src="/img/example.png" width="100px" height="100px" alt="image" />
+   ```
+
+
+
+### Circular Image
+
+![Circular Image](/img/img-t/img-5.png)
+
+1. Add `` border-radius:50% `` to image **Style**.
+
+HTML
+
+```html
+<img alt="" src="http://www.aqua.gov/home/scvwd/main/example2.png" style="border-radius:50%; height:250px; width:250px" />
+```
+
+
+
+
+
+### Rounded Image Corners
+
+![Circular Image](/img/img-t/img-4.png)
+
+1. Add `` border-radius:15% `` to image **Style**.
+
+HTML
+
+``` html
+<img alt="" src="http://www.aqua.gov/home/scvwd/main/example2.png" style="border-radius:15%; height:250px; width:250px" />
+```
 
