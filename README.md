@@ -5,7 +5,7 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 *Read this in other languages: [Spanish](README.es.md)*
 
-<img src="/img/drupal_logo.png" alt="Drupal" width="100px" />
+
 
 ## Table of Contents
 
