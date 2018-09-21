@@ -7,6 +7,16 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 ## Table of Contents
 
+- [Buttons](https://github.com/ucdstudent95618/drupal-design-hacks#buttons)
+  - [Single Button](https://github.com/ucdstudent95618/drupal-design-hacks#single-button)
+  - [Inline Buttons](https://github.com/ucdstudent95618/drupal-design-hacks#inline-buttons)
+  - [Inline Button With Text](https://github.com/ucdstudent95618/drupal-design-hacks#inline-button-with-text)
+- [Div](https://github.com/ucdstudent95618/drupal-design-hacks#div)
+- [Tables](https://github.com/ucdstudent95618/drupal-design-hacks#tables)
+  - [Creating a Table](https://github.com/ucdstudent95618/drupal-design-hacks#creating-a-table)
+  - [Adding Color to Single Cell](https://github.com/ucdstudent95618/drupal-design-hacks#adding-color-to-single-cell)
+  - [Adding Color to Entire Table]()
+
 ## Buttons
 
 Buttons can be created by using a link.
@@ -244,9 +254,7 @@ Buttons can be created by using a link.
 
 
 
-### **Adding Background Color**
-
-**Adding Color to Cell**
+### Adding Color to Single Cell
 
 ![Table with Blue Cell](/img/table/table-3.png)
 
@@ -303,13 +311,15 @@ Buttons can be created by using a link.
 
 
 
-**Adding Color to Entire Table**
+### **Adding Color to Entire Table**
 
 ![Table With Color](/img/table/table-4.png)
 
 1. Right Click on **Table**
 
 2. Go to **Table** **Properties** and add `` Background-color: blue;`` to **Style**.
+
+   ![Adding Blue to Table](/img/table/table-5.png)
 
    ```html
    <table align="center" border="1" cellpadding="1" cellspacing="1" style="background-color:blue; width:100%">
@@ -355,3 +365,5 @@ Buttons can be created by using a link.
    	</tbody>
    </table>
    ```
+
+
