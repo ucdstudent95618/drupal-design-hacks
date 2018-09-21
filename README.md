@@ -26,6 +26,11 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
   - [Creating a Table](#creating-a-table)
   - [Adding Color to Single Cell](#adding-color-to-single-cell)
   - [Adding Color to Entire Table](#adding-color-to-entire-table)
+- [Images](#images)
+  - [Adding an Image](#adding-an-Image)
+  - [Resizing an Image](#resizing-an-image)
+  - [Ciruclar Image](#circular-image)
+  - [Rounded Image Corners](#rounded-image-corners)
 
 
 
@@ -384,7 +389,7 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 ## Images
 
-### Creating an Image
+### Adding an Image
 
 **Method #1**
 
