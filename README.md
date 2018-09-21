@@ -246,3 +246,112 @@ Buttons can be created by using a link.
 
 ### **Adding Background Color**
 
+**Adding Color to Cell**
+
+![Table with Blue Cell](/img/table/table-3.png)
+
+1. Click on the **Cell**.
+
+2. Go to **Cell Properties** and add the color to **Background Color**.
+
+   ![Adding Background Color](/img/table/table-2.png)
+
+```html
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width:100%">
+	<thead>
+		<tr>
+			<th scope="col" style="background-color: blue;">
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+			</th>
+			<th scope="col">&nbsp;</th>
+			<th scope="col">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+```
+
+
+
+**Adding Color to Entire Table**
+
+![Table With Color](/img/table/table-4.png)
+
+1. Right Click on **Table**
+
+2. Go to **Table** **Properties** and add `` Background-color: blue;`` to **Style**.
+
+   ```html
+   <table align="center" border="1" cellpadding="1" cellspacing="1" style="background-color:blue; width:100%">
+   	<thead>
+   		<tr>
+   			<th scope="col">
+   			<p>&nbsp;</p>
+   
+   			<p>&nbsp;</p>
+   			</th>
+   			<th scope="col">&nbsp;</th>
+   			<th scope="col">&nbsp;</th>
+   		</tr>
+   	</thead>
+   	<tbody>
+   		<tr>
+   			<td>
+   			<p>&nbsp;</p>
+   
+   			<p>&nbsp;</p>
+   			</td>
+   			<td>&nbsp;</td>
+   			<td>&nbsp;</td>
+   		</tr>
+   		<tr>
+   			<td>
+   			<p>&nbsp;</p>
+   
+   			<p>&nbsp;</p>
+   			</td>
+   			<td>&nbsp;</td>
+   			<td>&nbsp;</td>
+   		</tr>
+   		<tr>
+   			<td>
+   			<p>&nbsp;</p>
+   
+   			<p>&nbsp;</p>
+   			</td>
+   			<td>&nbsp;</td>
+   			<td>&nbsp;</td>
+   		</tr>
+   	</tbody>
+   </table>
+   ```
