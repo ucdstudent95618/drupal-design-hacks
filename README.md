@@ -13,15 +13,15 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 ## Table of Contents
 
-- [Buttons](https://github.com/ucdstudent95618/drupal-design-hacks#buttons)
-  - [Single Button](https://github.com/ucdstudent95618/drupal-design-hacks#single-button)
-  - [Inline Buttons](https://github.com/ucdstudent95618/drupal-design-hacks#inline-buttons)
-  - [Inline Button With Text](https://github.com/ucdstudent95618/drupal-design-hacks#inline-button-with-text)
-- [Div](https://github.com/ucdstudent95618/drupal-design-hacks#div)
-- [Tables](https://github.com/ucdstudent95618/drupal-design-hacks#tables)
-  - [Creating a Table](https://github.com/ucdstudent95618/drupal-design-hacks#creating-a-table)
-  - [Adding Color to Single Cell](https://github.com/ucdstudent95618/drupal-design-hacks#adding-color-to-single-cell)
-  - [Adding Color to Entire Table](https://github.com/ucdstudent95618/drupal-design-hacks#adding-color-to-entire-table)
+- [Buttons](#buttons)
+  - [Single Button](#single-button)
+  - [Inline Buttons](#inline-buttons)
+  - [Inline Button With Text](#inline-button-with-text)
+- [Div](#div)
+- [Tables](#tables)
+  - [Creating a Table](#creating-a-table)
+  - [Adding Color to Single Cell](#adding-color-to-single-cell)
+  - [Adding Color to Entire Table](#adding-color-to-entire-table)
 
 ## Buttons
 
