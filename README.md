@@ -15,7 +15,7 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 - [Tables](https://github.com/ucdstudent95618/drupal-design-hacks#tables)
   - [Creating a Table](https://github.com/ucdstudent95618/drupal-design-hacks#creating-a-table)
   - [Adding Color to Single Cell](https://github.com/ucdstudent95618/drupal-design-hacks#adding-color-to-single-cell)
-  - [Adding Color to Entire Table]()
+  - [Adding Color to Entire Table](https://github.com/ucdstudent95618/drupal-design-hacks#adding-color-to-entire-table)
 
 ## Buttons
 
