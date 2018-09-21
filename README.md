@@ -22,6 +22,8 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
   - [Inline Buttons](#inline-buttons)
   - [Inline Button With Text](#inline-button-with-text)
 - [Divs](#div)
+  - [Creating a Div](#creating-a-div)
+  - [Styling a Div](#styling-a-div)
 - [Tables](#tables)
   - [Creating a Table](#creating-a-table)
   - [Adding Color to Single Cell](#adding-color-to-single-cell)
@@ -197,6 +199,10 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 	</tbody>
 </table>
 
+
+### Creating a Div
+
+
 1. Create at **table** that is 1x1.
 
    ![Adding CSS to Div](/img/div/div-1.png)
@@ -212,7 +218,14 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
    </table>
    ```
 
-2. Add CSS to **Style**.
+
+
+### Styling a Div
+
+
+1. Open the **Table Properties**.
+
+2. Add **Style**.
 
    ![Adding CSS to Div](/img/div/div-3.png)
 
