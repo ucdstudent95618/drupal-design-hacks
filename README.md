@@ -306,7 +306,7 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
    ![Selecting Image](C:/Users/Migusala/Desktop/Drupal/img/img-t/img-2.png)
 
-**Method #2 **
+**Method #2**
 
 1. Create an **image tag** and insert into the **editor**.
 
