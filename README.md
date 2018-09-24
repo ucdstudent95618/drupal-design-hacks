@@ -304,7 +304,7 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 2. Click on **Browse Server** and select image.
 
-   ![Selecting Image](C:/Users/Migusala/Desktop/Drupal/img/img-t/img-2.png)
+   ![Selecting Image](/img/img-t/img-2.png)
 
 **Method #2**
 
@@ -328,7 +328,7 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 2. And save by clicking "OK."
 
-   ![Updating Image Size](C:/Users/Migusala/Desktop/Drupal/img/img-t/img-2.png)
+   ![Updating Image Size](/img/img-t/img-2.png)
 
 **Method #2**
 
@@ -348,7 +348,7 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 ### Circular Image
 
-![Circular Image](C:/Users/Migusala/Desktop/Drupal/img/img-t/img-5.png)
+![Circular Image](/img/img-t/img-5.png)
 
 1. Add `` border-radius:50% `` to image **Style**.
 
@@ -365,7 +365,7 @@ HTML
 
 ### Rounded Image Corners
 
-![Circular Image](C:/Users/Migusala/Desktop/Drupal/img/img-t/img-4.png)
+![Circular Image](/img/img-t/img-4.png)
 
 1. Add `` border-radius:15% `` to image **Style**.
 
