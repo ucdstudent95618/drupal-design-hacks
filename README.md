@@ -59,7 +59,8 @@ A collection of Drupal design hacks that avoid the use of external CSS files. Th
    <a href="http://www.google.com">button</a>
    ```
 
-2. Add CSS to **Style**.
+2. Click on **Advanced**.
+3. Add CSS to **Style**.
 
 
 
