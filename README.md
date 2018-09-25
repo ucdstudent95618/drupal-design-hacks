@@ -30,6 +30,7 @@ A collection of Drupal design hacks that avoid the use of external CSS files. Th
   - [Rounded Image Corners](#rounded-image-corners)
 - [Links](#links)
   - [Creating a Link](#creating-a-link)
+  - [Examples](#examples)
 - [Tables](#tables)
   - [Creating a Table](#creating-a-table)
   - [Adjusting Table Size](#adjusting-table-size)
@@ -272,6 +273,8 @@ A collection of Drupal design hacks that avoid the use of external CSS files. Th
 1. Go to **Table Properties**.
 2. Increase size appropriately.
 
+
+
 ### Styling a Div
 
 
@@ -405,6 +408,32 @@ HTML
 
    ![Link](/img/link/link-2.png)
 
+### Examples 
+
+```html
+<a href="www.aqua.gov" style="text-decoration: underline"> Link </a>
+```
+
+<a href="www.aqua.gov" style="text-decoration: underline"> Example Link </a>
+
+```html
+<a href="www.aqua.gov" style="text-decoration: underline"> Link </a>
+```
+
+<a href="www.aqua.gov" style="text-decoration: none" > Example Link </a>
+
+```html
+<a href="www.aqua.gov" style="text-decoration: underline dotted"> Link </a>
+```
+
+<a href="www.aqua.gov" style="text-decoration: underline dotted"> Example Link </a>
+
+```html
+<a href="www.aqua.gov" style="text-decoration: underline dotted red"> Link </a>
+```
+
+<a href="www.aqua.gov" style="text-decoration: underline dotted red"> Example Link </a>
+
 
 
 ## Tables 
@@ -473,7 +502,8 @@ HTML
    ```
 
 
-#### **New Row**
+
+#### New Row
 
 1. Go to page **Source**.
 
