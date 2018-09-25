@@ -17,21 +17,21 @@ Una colección de hacks de diseño de Drupal que evitan el uso de archivos CSS e
 ## Tabla de contenido
 
 - [Botones](#botones)
-    ​    - [Botón individual](#botón-individual)
-    ​    - [Botones en línea](#botones-en-línea)
-    ​    - [Botón en línea con texto](#en-línea-botón-con-texto)
+    - [Botón individual](#botón-individual)
+    - [Botones en línea](#botones-en-línea)
+    -  [Botón en línea con texto](#en-línea-botón-con-texto)
 - [Divs](#div)
-        - [Creando una Div](#creando-una-div)
-            - [Estilo de una Div](#estilo-de-una-div)
+        - [Creando una Div](#creando-una-div)
+        - [Estilo de una Div](#estilo-de-una-div)
 - [Imágenes](#imágenes)
-    ​    - [Agregar una imagen](#adding-an-image)
+    - [Agregar una imagen](#adding-an-image)
       - [Cambiar el tamaño de una imagen](#redimensionar-una-imagen)
       - [Imagen circular](#imagen-circular)
       - [Esquinas redondeadas de la imagen](#esquinas-redondeadas-de-la-imagen)
 - [Tablas](#tablas)
-    ​    - [Creando una tabla](#creando-una-tabla)
-    ​    - [Agregar color a una sola celda](#agregar-color-a-una-sola-celda)
-    ​    - [Agregar color a toda la tabla](#agregar-color-a-toda-la-tabla)
+    - [Creando una tabla](#creando-una-tabla)
+    - [Agregar color a una sola celda](#agregar-color-a-una-sola-celda)
+    - [Agregar color a toda la tabla](#agregar-color-a-toda-la-tabla)
 
 ## Botones
 
