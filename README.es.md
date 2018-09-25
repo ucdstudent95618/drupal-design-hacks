@@ -1,4 +1,5 @@
 # # Drupal Design Hacks [![Impresionante](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ucdstudent95618/drupal-design-hacks)
+
 Una colección de hacks de diseño de Drupal que evitan el uso de archivos CSS externos.
 
 *Enlace corto: [https://git.io/fAQHX](https://git.io/fAQHX)*
@@ -54,28 +55,30 @@ Una colección de hacks de diseño de Drupal que evitan el uso de archivos CSS e
 
 
 
-   HTML
+   HTML
 
 ```html
-<a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; line-height: 45px; color: white; border-radius: 10px; tamaño de letra: 18px; text-decoration: none;" Botón type ="button"> </a>
+   <a href="http://www.google.com" style="display: block; background-color: blue; width: 175px; height: 45px; line-height: 45px; color: white; border-radius: 10px; font-size: 18px; text-decoration: none;" type="button">button</a>
+   
 ```
+
+
+
+   CSS
+
+```css
+   display: block;
+   background-color: blue;
+   width: 175px;
+   height: 45px;
+   line-height: 45px;
+   color: white;
+   border-radius: 10px;
+   font-size: 18px;
+   text-decoration: none;
 ```
 
 
-
-   CSS
-
-​```css
-   bloqueo de pantalla;
-   color de fondo: azul;
-   ancho: 175px;
-   altura: 45px;
-   línea-altura: 45px;
-   color blanco;
-   radio del borde: 10px;
-   tamaño de letra: 18px;
-   texto-decoración: ninguno;
-```
 
 3. Agregue el "botón" a **Tipo de contenido asesor**.
 
@@ -107,6 +110,28 @@ Una colección de hacks de diseño de Drupal que evitan el uso de archivos CSS e
    		</ tr>
    	</ tbody>
    </ table>
+```
+
+
+
+2. Cambia **Cell padding** y **Cell spacing** a 0.
+
+![Cell padding/spacing set to zero](/img/btn/inline-btn-3.png)
+
+
+
+   HTML
+
+```html
+   <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+   	<tbody>
+   		<tr>
+   			<td></td>
+   			<td></td>
+   			<td></td>
+   		</tr>
+   	</tbody>
+   </table>
 ```
 
 
