@@ -1,7 +1,5 @@
 # Drupal Design Hacks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ucdstudent95618/drupal-design-hacks)
-A collection of Drupal design hacks that avoid the use of external CSS files.
-
-*Shortlink: [https://git.io/fAQHX](https://git.io/fAQHX)*
+A collection of Drupal design hacks that avoid the use of external CSS files. This allows users that do not have access to the the backend to create beautiful webpages.
 
 *Read this in other languages: [Spanish](README.es.md)*
 
@@ -23,14 +21,20 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
   - [Inline Button With Text](#inline-button-with-text)
 - [Divs](#div)
   - [Creating a Div](#creating-a-div)
+  - [Resizing a Div](#resizing-a-div)
   - [Styling a Div](#styling-a-div)
 - [Images](#images)
   - [Adding an Image](#adding-an-Image)
   - [Resizing an Image](#resizing-an-image)
   - [Circular Image](#circular-image)
   - [Rounded Image Corners](#rounded-image-corners)
+- [Links](#links)
+  - [Creating a Link](#creating-a-link)
 - [Tables](#tables)
   - [Creating a Table](#creating-a-table)
+  - [Adjusting Table Size](#adjusting-table-size)
+    - [New Column](#new-column)
+    - [New Row](#new-row)
   - [Adding Color to Single Cell](#adding-color-to-single-cell)
   - [Adding Color to Entire Table](#adding-color-to-entire-table)
 
@@ -185,6 +189,8 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
 
 
 
+
+
 ### Inline Button With Text 
 
 ![Inline Button With Text](/img/btn/inline-btn-12.png)
@@ -260,6 +266,11 @@ A collection of Drupal design hacks that avoid the use of external CSS files.
    ```
 
 
+
+### Resizing a Div
+
+1. Go to **Table Properties**.
+2. Increase size appropriately.
 
 ### Styling a Div
 
@@ -378,6 +389,24 @@ HTML
 
 
 
+## Links
+
+![Link Example](/img/link/link-1.png)
+
+
+
+### Creating a Link
+
+1. Select and highlight text.
+
+2. Click on link icon to add.
+
+3. Place URL.
+
+   ![Link](/img/link/link-2.png)
+
+
+
 ## Tables 
 
 ### Creating a Table
@@ -418,6 +447,41 @@ HTML
 	</tbody>
 </table>
 ```
+
+
+
+### Adjusting Table Size
+
+#### **New Column**
+
+1. Go to page **Source**.
+
+2. Under ``<thead>`` add the following to the ``<tr>`` tag.
+
+   ```html
+   <th scope="col">&nbsp;</th>
+   ```
+
+3. Add the following to the ``<tbody>`` tag.
+
+   ```html
+   <tr>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+   </tr>
+   ```
+
+
+#### **New Row**
+
+1. Go to page **Source**.
+
+2. Under the ``<tbody>`` tag add the following to each ``<tr>``.
+
+   ```html
+   <td>&nbsp;</td>
+   ```
 
 
 
