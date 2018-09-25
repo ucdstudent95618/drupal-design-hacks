@@ -414,25 +414,25 @@ HTML
 <a href="www.aqua.gov" style="text-decoration: underline"> Link </a>
 ```
 
-<a href="www.aqua.gov" style="text-decoration: underline"> Example Link </a>
+![Link 1](/img/link/link-3.png)
 
 ```html
 <a href="www.aqua.gov" style="text-decoration: underline"> Link </a>
 ```
 
-<a href="www.aqua.gov" style="text-decoration: none" > Example Link </a>
+![Link ](/img/link/link-4.png)
 
 ```html
 <a href="www.aqua.gov" style="text-decoration: underline dotted"> Link </a>
 ```
 
-<a href="www.aqua.gov" style="text-decoration: underline dotted"> Example Link </a>
+![Link](/img/link/link-5.png)
 
 ```html
 <a href="www.aqua.gov" style="text-decoration: underline dotted red"> Link </a>
 ```
 
-<a href="www.aqua.gov" style="text-decoration: underline dotted red"> Example Link </a>
+![Link](/img/link/link-6.png)
 
 
 
