@@ -1,5 +1,5 @@
 # Drupal Design Hacks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ucdstudent95618/drupal-design-hacks)
-A collection of Drupal design hacks that avoid the use of external CSS files. This allows users that do not have access to the backend to create beautiful webpages.
+A collection of Drupal design hacks that avoid the use of external CSS files. This allows users that do not have access to the backend to create beautiful web pages.
 
 *Read this in other languages: [Spanish](README.es.md)*
 
